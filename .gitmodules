@@ -1,0 +1,3 @@
+[submodule "LibCorestrike"]
+	path = LibCorestrike
+	url = https://github.com/Sunstrike/LibCorestrike.git

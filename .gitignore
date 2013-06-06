@@ -1,0 +1,8 @@
+/.rbx/
+/build/
+/download/
+/.idea/
+/*.iws
+/out/
+/bin/
+atlassian-ide-plugin.xml
