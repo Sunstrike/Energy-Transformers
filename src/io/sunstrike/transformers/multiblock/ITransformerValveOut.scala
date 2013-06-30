@@ -1,10 +1,10 @@
-package io.sunstrike.liquidenergy.multiblock
+package io.sunstrike.transformers.multiblock
 
 import net.minecraft.tileentity.TileEntity
 
 /*
  * ITransformerValveOut
- * io.sunstrike.liquidenergy.multiblock
+ * io.sunstrike.transformers.multiblock
  */
 
 /**

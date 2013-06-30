@@ -1,22 +1,22 @@
-package io.sunstrike.liquidenergy
+package io.sunstrike.transformers
 
 import cpw.mods.fml.common.Mod
 import cpw.mods.fml.common.network.NetworkMod
-import io.sunstrike.liquidenergy.network.PacketHandler
+import io.sunstrike.transformers.network.PacketHandler
 import cpw.mods.fml.common.Mod.{PostInit, Init, PreInit}
 import cpw.mods.fml.common.event.{FMLPostInitializationEvent, FMLInitializationEvent, FMLPreInitializationEvent}
-import io.sunstrike.liquidenergy.configuration.LEConfig
+import io.sunstrike.transformers.configuration.Config
 import net.minecraftforge.common.Configuration
-import io.sunstrike.liquidenergy.helpers.Registrations
-import io.sunstrike.liquidenergy.lib.LEConstants._
+import io.sunstrike.transformers.helpers.Registrations
+import io.sunstrike.transformers.lib.Constants._
 
 /*
- * LiquidEnergy
- * io.sunstrike.liquidenergy
+ * Transformers
+ * io.sunstrike.transformers
  */
 
 /**
- * LE FML container
+ * Transformers FML container
  *
  * @author Sunstrike
  */
@@ -29,7 +29,7 @@ import io.sunstrike.liquidenergy.lib.LEConstants._
     serverSideRequired = false,
     channels = Array(PacketHandler.channel),
     packetHandler = classOf[PacketHandler])
-object LiquidEnergy {
+object Transformers {
 
     /**
      * FML Preinit
@@ -40,7 +40,7 @@ object LiquidEnergy {
      */
     @PreInit
     def preInit(event:FMLPreInitializationEvent) {
-        LEConfig.loadConfig(new Configuration(event.getSuggestedConfigurationFile))
+        Config.loadConfig(new Configuration(event.getSuggestedConfigurationFile))
     }
 
     /**

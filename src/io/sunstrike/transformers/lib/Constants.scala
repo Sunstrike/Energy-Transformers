@@ -1,8 +1,8 @@
-package io.sunstrike.liquidenergy.lib
+package io.sunstrike.transformers.lib
 
 /*
- * LEConstants
- * io.sunstrike.liquidenergy.lib
+ * Constants
+ * io.sunstrike.transformers.lib
  */
 
 /**
@@ -10,10 +10,10 @@ package io.sunstrike.liquidenergy.lib
  *
  * @author Sunstrike
  */
-object LEConstants {
+object Constants {
 
-    final val modId = "LiquidEnergy"
-    final val modName = "Liquid Energy"
+    final val modId = "Transformers"
+    final val modName = "Energy Transformers"
     final val version = "@VERSION@"
     final val modDeps = ""
     final val modLang = "scala"

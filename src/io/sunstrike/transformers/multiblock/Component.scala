@@ -1,8 +1,8 @@
-package io.sunstrike.liquidenergy.multiblock
+package io.sunstrike.transformers.multiblock
 
 /*
  * Component
- * io.sunstrike.liquidenergy.multiblock
+ * io.sunstrike.transformers.multiblock
  */
 
 /**

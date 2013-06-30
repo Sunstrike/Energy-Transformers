@@ -1,4 +1,4 @@
-package io.sunstrike.liquidenergy.network
+package io.sunstrike.transformers.network
 
 import cpw.mods.fml.common.network.{Player, IPacketHandler}
 import net.minecraft.network.INetworkManager
@@ -7,7 +7,7 @@ import java.io.{ByteArrayInputStream, DataInputStream}
 
 /*
  * PacketHandler
- * io.sunstrike.liquidenergy.network
+ * io.sunstrike.transformers.network
  */
 
 /**

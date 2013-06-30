@@ -1,5 +1,5 @@
 <!-- Based on buildcraft's build.xml -->
-<project name="LiquidEnergy" default="main">
+<project name="Transformers" default="main">
 	<property environment="env"/>
 	<!-- Properties -->
 
@@ -174,7 +174,7 @@
 
 		<delete dir="${jar.dir}"/>
 		<mkdir dir="${jar.dir}"/>
-		<jar destfile="${jar.dir}/LiquidEnergy-${project.version.full}.jar" basedir="${classes.dir}"/>
+		<jar destfile="${jar.dir}/Transformers-${project.version.full}.jar" basedir="${classes.dir}"/>
 
 	</target>
 

@@ -1,11 +1,11 @@
-package io.sunstrike.liquidenergy.multiblock
+package io.sunstrike.transformers.multiblock
 
 import net.minecraft.tileentity.TileEntity
-import io.sunstrike.liquidenergy.multiblock.Component._
+import io.sunstrike.transformers.multiblock.Component._
 
 /*
  * ITransformerCore
- * io.sunstrike.liquidenergy.multiblock
+ * io.sunstrike.transformers.multiblock
  */
 
 /**
